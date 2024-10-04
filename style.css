@@ -1,0 +1,555 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: rgb(232, 231, 231);
+}
+
+@font-face {
+    font-family: oswald;
+    src: url(fonts/Oswald-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: opensans;
+    src: url(fonts/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+
+.nav{
+    background-color: black;
+      
+}
+
+
+.nav a{
+    padding: 10px 17px;
+    font-size: 15px;
+    font-family: OpenSans;
+    float: left;
+    display: inline-block;
+    line-height: 23px;
+    font-weight: 400px;
+    color: white;
+}
+
+.clear{
+    content: "";
+    clear: both;
+}
+
+.nav .search{
+    float: right;
+}
+
+.nav a:hover{
+    background-color: silver;
+    color: black;
+}
+
+
+
+#big_title{
+    background-color: white;
+    text-align: center;
+    font-family: oswald;
+    padding: 60px ;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+#big_title h1{
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 72px;
+    margin-bottom: 10px;
+}
+
+#big_title p{
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+
+}
+
+#big_title p span{
+    background-color: black;
+    padding: 3px 8px;
+    color: white;
+}
+
+
+
+
+.header{
+text-align: center;
+position: relative;
+}
+
+.header img{
+
+}
+
+.header div{
+position: absolute;
+top: 40%;
+left: 9%;
+color: aliceblue;
+font-family: oswald;
+text-align: start;
+
+}
+
+.header div p{
+font-size: 36px;
+font-weight: 400;
+line-height: 54px;
+letter-spacing: 3px;
+}
+
+.header div h1{
+font-size: 64px;
+line-height: 96px;
+font-weight: 600;
+letter-spacing: 4px;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+.header div button{
+letter-spacing: 2px;
+font-family: oswald;    
+font-size: 18px;
+line-height: 27px;
+font-weight: 400;
+padding: 11px 20px;
+background-color: silver;
+border: none;
+}
+
+.header div button:hover{
+    background-color:rgb(235, 230, 230) ;
+}
+
+
+.container{
+    padding: 20px 150px; 
+    display: flex;   
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container1{
+    width: 65%;
+    background-color: rgb(232, 231, 231);
+    padding: 20px;
+    
+}
+
+.container2{
+    width: 35%;
+    
+    padding: 65px 20px;
+}
+
+
+
+.container1 .card{
+    padding: 25px;
+    text-align: center;
+    background-color: white;
+    margin-top: 50px;
+}
+
+
+.container1 .card img{
+    width: 100%;
+    height: 700px;
+
+}
+
+
+.container1 .card h3{
+font-family: oswald;
+font-size: 27px;
+font-weight: 400;
+line-height: 36px;
+
+}
+
+.container1 .card p{
+    font-family: oswald;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    margin-top: 10px ;
+    margin-bottom: 25px;
+    }
+
+.container1 .card p span{
+    opacity: calc(0.5);
+}    
+
+
+.container1 .card .des{
+    text-align: start;
+    font-family: opensans;
+    font-size: 15px;
+    line-height: 23px;
+    margin: 20px 0;
+}
+
+
+.container1 .card .hr{
+    border: 1px solid silver;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+
+.container1 .card .card_button .btn-like{
+    float: left;
+    background-color: white;
+    border: 1px solid silver;
+    padding: 8PX 13px;
+    font-size: 15px;
+    line-height: 23px;
+}
+.container1 .card .card_button .btn-reply{
+    float: right;
+    padding: 10PX 25px;
+    font-size: 15px;
+    line-height: 23px;
+    border: 1px solid silver;
+    background-color: black;
+    color: white;
+}
+
+.card_button .btn-reply span{
+    background-color: white;
+    color: black;
+    padding: 3px;
+}
+
+.card .card_button .btn-like:hover{
+    background-color: silver;
+
+}
+
+.card .card_button .btn-reply:hover{
+    background-color: silver;
+    color: black;
+}
+
+.card .replies{
+    display: flex;
+    font-size: 15PX;
+    line-height: 23px;
+    text-align: start;
+}
+
+.card .replies img{
+    width: 110px;
+    height: 110px;
+    margin-right: 50PX;
+    
+}
+
+.card .replies  .des_img{
+    padding-top: 10px;
+    
+}
+
+.card .replies  div .p1{
+   margin: 0;
+}
+
+.card .replies  div .p2{
+font-size: 15px;
+line-height: 23px;
+font-family: opensans;
+}
+
+
+
+
+.container2 .img1{
+    width: 100%;
+    margin: auto;
+}
+
+
+.container2 .img1 img{
+    width: 100%;
+}
+
+.container2 .content{
+    font-family: opensans;
+    background-color: black;
+    color: white;
+    margin-top: -10px;
+    padding: 15PX ;
+    font-size: 15PX;
+    font-weight: 400;
+    line-height: 23px;
+}
+
+
+.container2 .aside{
+    margin-top: 25px;
+    background-color: white;
+}
+
+.container2 .aside h4{
+    font-family: oswald;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 10px;
+}
+
+.aside_content{
+    width: 100%;
+    padding-bottom: 20px;
+    padding: 15px;
+}
+
+.aside_content .cont1 img{
+    float: left;
+}
+
+
+.aside_content .cont1{
+    border-bottom: 1px solid silver ;
+    padding-top: 10px;
+}
+
+.aside_content .cont1 section{
+    float: left;
+    padding: 10px 20PX;
+    font-family: opensans;
+}
+
+.aside_content .cont1 section .name{
+    font-size: 18px;
+    line-height: 23px;
+    display: inline-block;
+    margin-bottom: 7px;
+}
+
+.aside_content #last_cont1{
+    border: none;
+} 
+
+
+
+
+.aside_content .ad{
+    background-color: rgb(215, 211, 211);
+    width: 100%;
+    height: 230px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.aside_content .ad p{
+    font-size: 18px;
+}
+
+
+
+.aside_content .word{
+    display: inline-block;
+    background-color: rgb(215, 211, 211);
+    padding: 4px;
+    margin-top: 10px;   
+}
+
+#fashion_word{
+    background-color: black;
+    padding: 4px 6px;
+    color: white;
+    font-size: 15px;
+    line-height: 23px;
+    font-family: opensans;
+}
+
+
+.aside_content_images{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 5px;
+    padding-right: 5px;
+    
+}
+
+.aside_content_images .images{
+    width: 50%;
+    padding: 10px  ;
+    overflow: hidden;
+}
+
+.aside_content_images .images img{
+width: 100%;
+height: 100%;
+}
+
+.aside_content .social{
+    color: black;
+    font-size: 24px;
+    line-height: 24px;
+    padding: 3px;
+}
+
+
+
+.aside_content .lablel{
+    font-size: 15px;
+    line-height: 23px;
+    font-family: opensans;
+    font-weight: 400;
+}
+
+
+
+.aside_content input{
+    padding: 10px;
+    width: 100%;
+    font-size: 18px;
+    border: 1px solid silver;
+    margin: 15px 0;
+}
+
+.aside_content .email_btn{
+    font-family: opensans;
+    padding: 8px;
+    width: 100%;
+    font-size: 18px;
+    background-color: red;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+
+.aside_content .email_btn:hover{
+    background-color: silver ;
+}
+
+
+@media  screen and (max-width: 1400px) {
+
+    .container{
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 0;
+    }
+
+        .container1{
+            width: 100% ;
+            display: block;
+        }
+
+        .container2{
+            width: 100% ;
+            display: block;
+        }
+
+        #big_title{
+            width: 100%;
+            margin: 0;
+        }
+  }
+
+  @media  screen and (max-width: 700px) {
+
+    .card .replies{
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .card .replies .small_img{
+        width: 100%;
+        display: block;
+    }
+
+    .card .replies  .des_img{
+        width: 100%;
+        display: block;
+    }
+
+
+    #big_title h1{
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 40px;
+        margin-bottom: 10px;
+    }
+
+    #big_title p{
+
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 20px;
+    
+    }
+
+    #big_title{
+        width: 100%;
+        margin: 0;
+    }
+
+
+
+
+  }  
+
+
+
+
+
+
+
+
+  footer{
+    background-color: #616161;
+    width: 100%;
+    height: 150px;
+    padding: 20px 35px;
+  }
+
+footer a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+footer button{
+    font-size: 18px;
+    padding: 15px 25px;
+    margin-bottom: 20PX;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+footer button:hover{
+    background-color: aliceblue;
+    color: black;
+}
+
+
+
+#sub{
+    visibility: hidden;
+    
+}
